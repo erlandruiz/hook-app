@@ -47,7 +47,7 @@ export const CounterApp = () => {
     <h1>Counter:{counter2}</h1>
     <h1>Counter:{counter3}</h1>
 
-    <hr />
+    {/* <hr /> */}
 
     {/* <button className="btn" onClick={()=>setCounter((counter1)+1)}>+1</button> */}
     <button className="btn" onClick={()=>setCounter(
@@ -56,6 +56,7 @@ export const CounterApp = () => {
             counter1 : counter1 +1
         }
     )}>+1</button>
+    <hr />
     
 
     </>
